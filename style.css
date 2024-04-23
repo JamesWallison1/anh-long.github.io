@@ -1,0 +1,40 @@
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+#email-address{
+    padding: 12px;
+    padding-left: 18px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid var(--Grey);
+}
+
+#submit-button{
+    padding: 15px;
+    width: 82%;
+    border-radius: 5px;
+    border: 1px solid var(--Grey);
+    border: none;
+    color: var(--White);
+    background-color: var(--Dark-Slate-Grey);
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 30px;
+}
